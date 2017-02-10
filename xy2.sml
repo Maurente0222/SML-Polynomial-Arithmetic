@@ -1,10 +1,3 @@
-(* I pledge my Honor that  I  have  not  cheated,  
-and  will  not  cheat, on this assignment
-	--Maximiliano Maurente
-
-	I know the solutions use helper functions. I've put a good amount of 
-	hours into this, and couldn't derive it. I'm shooting for partial credit.*)
-
 (*Application of Horner's rule.. Helper function to evalXY. Evaluates
 	each sublist at the value of X*)
 fun evalX xCoef x = foldr (fn (a,b) => a + b*x) 0 xCoef
